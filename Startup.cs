@@ -48,7 +48,7 @@ namespace Fisher.Bookstore
                 .AllowAnyHeader()
                 .AllowAnyMethod());
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
