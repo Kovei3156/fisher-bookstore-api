@@ -80,7 +80,6 @@ namespace Fisher.Bookstore
                 .AllowAnyHeader()
                 .AllowAnyMethod());
 
-            app.UseAuthorization();
 
             app.UseAuthentication(); 
             app.UseAuthorization(); 
